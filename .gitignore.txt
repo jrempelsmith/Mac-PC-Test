@@ -1,0 +1,85 @@
+# =========================================================================
+# 1. UNITY SPECIFIC IGNORES
+# =========================================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[MemoryCaptures]/
+
+# Asset server cache metadata
+/[Aa]sset[Cc]ache/
+
+# Crashlytics generated file
+CrashlyticsInit.bin
+
+# Discard local build logs and results
+*.log
+*.clog
+
+# =========================================================================
+# 2. AUTOMATICALLY GENERATED PROJECT FILES (IDE & EDITOR)
+# =========================================================================
+# Unity auto-generates these for whichever IDE is active. 
+# They must not be tracked to prevent cross-platform file locking conflicts.
+/*.csproj
+/*.unityproj
+/*.sln
+/*.suo
+/*.tmp
+/*.user
+/*.userprefs
+/*.pidb
+/*.booproj
+/*.svd
+/*.pdb
+/*.opendb
+/*.VC.db
+
+# Unity code analysis and assembly compilation files
+*.dll
+*.pdb
+*.mdb
+
+# Except plugins/dlls you explicitly placed in Assets (Optional safety rule)
+!/[Aa]ssets/**/*.dll
+
+# =========================================================================
+# 3. JETBRAINS RIDER (macOS/Windows) SPECIFIC IGNORES
+# =========================================================================
+# Excludes JetBrains project settings, local history, and IDE caches
+.idea/
+*.sln.iml
+.kdev4/
+
+# =========================================================================
+# 4. MICROSOFT VISUAL STUDIO (Windows) SPECIFIC IGNORES
+# =========================================================================
+.vs/
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleasePS/
+x64/
+x86/
+bsearch/
+包装/
+包装S/
+AsmCache/
+
+# =========================================================================
+# 5. OS OPERATING SYSTEM SPECIFIC IGNORES
+# =========================================================================
+# macOS specific metadata files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific thumbnail/desktop shortcuts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
